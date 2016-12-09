@@ -1,0 +1,306 @@
+@charset "UTF-8";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css";
+
+/* Basics & Resets */
+
+*, html{
+
+  margin:0;padding:0;
+
+}
+a, button, input{
+
+  outline: none;
+
+}
+
+/* Font Styling */
+
+html, body{
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* GitHub Fontstack */
+		font-weight: 400;
+		font-size: 11.5pt;
+		line-height: 16.5pt;
+		letter-spacing: 0.8pt;
+		background: #fefefe;
+		color: 	#222222;
+		margin:	0 auto;
+
+		-webkit-font-smoothing: antialiased;
+
+    padding:15px;
+
+    width:100%;
+    box-sizing: border-box;
+
+}
+body{
+
+  padding-bottom:60px;
+
+}
+@media (max-width: 824px){
+    body{
+        padding:5px 5px 60px 5px;
+    }
+}
+button, input, textarea, tr, td, table{
+
+  font-weight: 400;
+  font-size: 11.5pt;
+  line-height: 16.5pt;
+  letter-spacing: 0.8pt;
+
+}
+
+a{
+
+  color:#999;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+
+}
+a:hover{
+
+  color:#222;
+  border-bottom:1px solid #222;
+
+}
+
+nav{
+  text-align:right;
+}
+nav a{
+  font-size:1.20em;
+  color:#0B93F6;
+  border:0;
+  padding-left:10px;
+}
+nav a:hover{
+  border:0;
+}
+nav a:first-of-type{
+  float:left;
+  padding-left:0;
+}
+
+header{
+  color:#999;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+/* Chat Bubbles */
+/* modified from https://codepen.io/samuelkraft/pen/Farhl/ */
+
+#chat, nav{
+  max-width: 1200px;
+  margin: 0px auto 20px auto;
+}
+#chat div{
+  margin-bottom: 10px;
+  line-height: 24px;
+  clear:both;
+  box-sizing: border-box;
+}
+#chat .message {
+  max-width:335px;
+  word-wrap: break-word;
+}
+
+.message a{
+
+  color:#0B93F6;
+  border-color:#0B93F6;
+
+}
+
+.clear {
+  clear: both;
+}
+
+.from-me{
+  display:inline-block;
+  padding: 10px 15px;
+  color: white;
+  background: #0B93F6;
+  border-radius: 25px;
+  float: right;
+}
+.options-from-me{
+  display:block;
+  text-align:right;
+  width:80%;
+  margin:0 0 0 auto!important;
+}
+
+@media (max-width: 824px){
+    .options-from-me{
+        width:100%;
+        padding-right:3px;
+        white-space: nowrap;
+        overflow-x:auto;
+    }
+}
+.options-from-me button,
+.options-from-me a{
+  display:inline-block;
+  padding:10px 15px;
+  margin:0 0 10px 10px;
+  background:#fff;
+  color:#0B93F6;
+  border:2px solid #0B93F6;
+  border-radius: 25px;
+  text-decoration:none;
+}
+.from-them{
+  display:inline-block;
+  padding: 10px 15px;
+  background: #E5E5EA;
+  border-radius: 25px;
+  color: black;
+  float: left;
+}
+.from-them.image{
+  position:relative;
+  padding:0!important;
+  width:60%;
+  max-width:355px;
+  background:transparent;
+}
+.from-them.image img{
+  border-radius:25px;
+  margin:0px 0px -6px 0px;border:0;padding:0;
+  width:100%;
+  box-sizing:border-box;
+}
+.from-them.image .sticker{
+  width:80%;
+  position:absolute;}
+.from-them.image .sticker--topright{
+  top:0;right:0;margin-right:-60%;margin-top:-10%;
+}
+
+/* CARDS */
+
+.cardgroup{
+  clear:both;
+  display:block;
+  width:100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.card{
+  display:inline-block;
+
+  width:40%;
+  max-width:300px;
+  background:#fefefe;
+  border-radius:25px;
+  border:1px solid #E5E5EA;
+
+  margin:0px 20px 0px 0px!important;
+
+  vertical-align: top;
+}
+.card img{
+  width:100%;
+  height:auto;
+  border-radius:24px 24px 0 0;
+  border-color:transparent;
+  margin-bottom:-3px;
+}
+.card p.caption{
+  padding:5px 20px 20px 20px;
+  white-space: normal;
+}
+.card p{
+  white-space: normal;
+  padding:2px 15px 10px 15px;
+}
+
+.linkcard{
+  color:#222;
+  position:relative;
+  border:2px solid #E5E5EA;
+}
+.linkcard a{
+  color:#222;
+}
+.linkcard:hover{
+  color:#222;
+  background:#E5E5EA;
+  border:2px solid #E5E5EA;
+}
+.linkcard:hover a{
+  color:#222;
+}
+
+img.emoji{width:24px;vertical-align: middle;margin-top:-3px;}
+
+.note{
+
+  clear:both;
+  font-size:9pt;
+  color:#999;
+  padding:0px 10px 60px 10px;
+  text-align:right;
+
+}
+
+
+/* FOOTER */
+.closeThis{
+  font-size:2em;
+  position:absolute;
+  top:50%;right:30px;
+  margin-top:-0.50em;
+  cursor: pointer;
+}
+
+
+footer{
+
+  position:fixed;
+  bottom:0;left:0;
+  width:100vw;
+  background:#eee;
+  color:#fff;
+  padding:20px;
+  text-align:center;
+  box-sizing: border-box;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c92870+0,e8902c+100 */
+background: rgb(201,40,112); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(201,40,112,1) 0%, rgba(232,144,44,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(201,40,112,1) 0%,rgba(232,144,44,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(201,40,112,1) 0%,rgba(232,144,44,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c92870', endColorstr='#e8902c',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+.options-from-me button:hover,
+.options-from-me a:hover,{
+  background:#0B93F6;
+  color:#fff;
+  text-decoration:none;
+}
+.option:hover{
+  cursor:pointer;
+}
+
+footer a{
+  color:#fff!important;
+  border:0px;
+}
+footer a:hover{
+  border:0;
+}
+
+@media print{
+    footer{
+      display:none;
+    }
+}

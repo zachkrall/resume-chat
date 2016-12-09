@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Zach Krall",
+    "label": "Visual Artist / Creative Technologist",
+    "email": "zach@zachkrall.com",
+    "website": "zachkrall.com",
+    "domains": [
+      "zackkrall.com",
+      "zacharykrall.com",
+      "krall.biz",
+      "krall.studio",
+      "krall.tech",
+      "interna.co",
+      "interna.xyz"
+    ],
+    "location": {
+      "city": "Brooklyn",
+      "state": "NY"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "zachkrall",
+        "url": "http://twitter.com/zachkrall"
+      },
+      {
+        "network": "GitHub",
+        "username": "zachkrall",
+        "url": "http://github.com/zachkrall"
+      },
+      {
+        "network": "Instagram",
+        "username": "zachkrall",
+        "url": "http://instagram.com/zachkrall"
+      },
+      {
+        "network": "Tumblr",
+        "username": "zachkrall",
+        "url": "http://blog.zachkrall.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "School of Visual Arts",
+      "position": "Admissions Counselor",
+      "website": "http://sva.edu/admissions",
+      "startDate": "October 2015",
+      "endDate": "Present",
+      "employment":"Full Time",
+      "highlights": [
+        "Serves as a counselor for prospective students applying to a Bachelor degree program at a premier arts college in New York City",
+        "Assisted Admissions team review about 5,500 applications to render Admissions Decision and compiles a researched list of students eligible for merit-based scholarships",
+        "Promptly responds to daily inquires from prospective students and admitted students",
+        "Managed and executed the design and outline of keynote presentation used during high school visits and information nights across the country"
+      ],
+      "projects": [
+        {
+          "title":"Recruitment Presentation",
+          "description":"Outlined and designed a Recruitment Presentation using Keynote, Adobe Premiere, and Adobe Photoshop to highlight the Facilities, Programs, Alumni Network, and Admissions process at SVA. This presentation was used by the recruitment staff within the Admissions office while visiting feeder schools and other high schools across the United States and Canada"
+        }
+      ]
+    },
+    {
+      "company": "Meckseper Studio",
+      "position": "Studio Assistant",
+      "website": "http://meckseper.nyc",
+      "startDate": "May 2013",
+      "endDate": "October 2015",
+      "employment":"Part Time",
+      "highlights": [
+        "Manages digital imaging tasks such as compositing, image retouching, digital scanning and printing",
+        "Oversees extensive exhibition archive which includes press releases, floor plans and diagrams, budgeting worksheets, sales records, loans and contracts, and installation photography",
+        "Assists in the creation of detailed installation manuals for artworks using InDesign and Illustrator",
+        "Assists Studio Manager with daily administrative tasks including managing expenses, maintaining office organization, ordering supplies, and answering the phone"
+      ],
+      "projects": [
+        {
+          "title":"Exhibition Archive",
+          "description":"Starting in 2013, I assessed and reevaluated the state of Josephine's exhibition archive and created a strategy for sourcing missing documents that provide a detailed account of the Studio's involvement with the project and how it influences the provenance of Josephine's work"
+        }
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "company": "MoMA PS1",
+      "position": "Warm Up Volunteer",
+      "website": "http://momaps1.org",
+      "startDate": "May 2014",
+      "endDate": "August 2015",
+      "employment": "Seasonal",
+      "highlights": [
+        "Acts as liaison between museum staff and patrons by informing guests of special events, museum hours, and musician line up; directing visitors to appropriate lines; and assisting with point of sale customer service"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "School of Visual Arts",
+      "area": "Photography",
+      "studyType": "Bachelor of Fine Arts",
+      "startDate": "September 2011",
+      "endDate": "May 2015",
+      "gpa": "3.7",
+      "other": "Honors Program"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emerging Artist",
+      "date": "2012",
+      "awarder": "V&M Photography"
+    }
+  ],
+  "skills":[
+    {
+      "type": "Administrative",
+      "skill" : ["SalesForce", "Microsoft Office", "Keynote", "FileMaker", "Public Speaking", "Automator", "HTML", "CSS", "JS"]
+    },
+    {
+      "type": "Creative",
+      "skill": ["Photoshop", "InDesign", "Premiere", "SketchUp", "Final Cut Pro X"]
+    }
+  ],
+  "interests": [
+    "Museums and Galleries",
+    "Information Security",
+    "Technology",
+    "Traveling"
+  ]
+}
