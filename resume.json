@@ -114,14 +114,8 @@
     }
   ],
   "skills":[
-    {
-      "type": "Administrative",
-      "skill" : ["SalesForce", "Microsoft Office", "Keynote", "FileMaker", "Public Speaking", "Automator", "HTML", "CSS", "JS"]
-    },
-    {
-      "type": "Creative",
-      "skill": ["Photoshop", "InDesign", "Premiere", "SketchUp", "Final Cut Pro X"]
-    }
+     "Administrative":  ["SalesForce", "Microsoft Office", "Keynote", "FileMaker", "Public Speaking", "Automator", "HTML", "CSS", "JS"],
+     "Creative": ["Photoshop", "InDesign", "Premiere", "SketchUp", "Final Cut Pro X"]
   ],
   "interests": [
     "Museums and Galleries",
