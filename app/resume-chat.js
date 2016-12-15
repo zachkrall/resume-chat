@@ -378,8 +378,8 @@ $(document).on("click", ".option", function(){
               'regulartext':'Photoshop, InDesign, Premiere, Final Cut Pro, SketchUp, Unity3D'
             },
             {
-              'boldtext':'Front-End',
-              'regulartext':'HTML, CSS, Javascript &amp; jQuery. (Learning: C++)'
+              'boldtext':'Programming',
+              'regulartext':'HTML, CSS, Javascript &amp; jQuery. (I want to learn C# and improve my basic knowledge of Unix/Command Line)'
             }
           ]);
           newMessageBubble('Also, I built this website ' + emoji.thumbup +'');
